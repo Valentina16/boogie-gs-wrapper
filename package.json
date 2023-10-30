@@ -1,0 +1,19 @@
+{
+	"name": "boogie-gs-wrapper",
+	"version": "1.0.0",
+	"description": "Wrapper of BoogieStats and GrooveStats to get both leaderboards",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "tsc && node dist/index.js",
+		"ts-init": "tsc --init"
+	},
+	"author": "Viper",
+	"license": "ISC",
+	"dependencies": {
+		"typescript": "^5.2.2"
+	},
+	"devDependencies": {
+		"@types/node": "^20.8.9"
+	}
+}
